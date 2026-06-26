@@ -81,8 +81,8 @@ dependencies {
     kapt("androidx.room:room-compiler:2.6.1")
 
     // Hilt
-    implementation("com.google.dagger:hilt-android:2.48")
-    kapt("com.google.dagger:hilt-android-compiler:2.48")
+    implementation("com.google.dagger:hilt-android:2.50")
+    kapt("com.google.dagger:hilt-android-compiler:2.50")
     implementation("androidx.hilt:hilt-navigation-compose:1.1.0")
 
     // DataStore
