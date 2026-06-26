@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">智能记账</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">首页</string>
+    <string name="nav_reports">报表</string>
+    <string name="nav_budget">预算</string>
+    <string name="nav_settings">设置</string>
+
+    <!-- Home -->
+    <string name="home_title">今日支出</string>
+    <string name="home_add_expense">添加支出</string>
+    <string name="home_total_today">今日总计</string>
+    <string name="home_no_expenses">暂无支出记录</string>
+
+    <!-- Add Expense -->
+    <string name="add_expense_title">添加支出</string>
+    <string name="add_expense_amount">金额</string>
+    <string name="add_expense_category">分类</string>
+    <string name="add_expense_date">日期</string>
+    <string name="add_expense_note">备注</string>
+    <string name="add_expense_save">保存</string>
+    <string name="add_expense_cancel">取消</string>
+    <string name="add_expense_amount_required">请输入金额</string>
+    <string name="add_expense_amount_invalid">金额无效</string>
+    <string name="add_expense_category_required">请选择分类</string>
+
+    <!-- Categories -->
+    <string name="category_food">餐饮</string>
+    <string name="category_transport">交通</string>
+    <string name="category_shopping">购物</string>
+    <string name="category_housing">住房</string>
+    <string name="category_entertainment">娱乐</string>
+    <string name="category_medical">医疗</string>
+    <string name="category_education">教育</string>
+    <string name="category_other">其他</string>
+
+    <!-- Reports -->
+    <string name="report_title">支出报表</string>
+    <string name="report_category_pie">分类占比</string>
+    <string name="report_daily_trend">每日趋势</string>
+    <string name="report_date_range">日期范围</string>
+    <string name="report_no_data">暂无数据</string>
+
+    <!-- Budget -->
+    <string name="budget_title">预算管理</string>
+    <string name="budget_set">设置预算</string>
+    <string name="budget_monthly">月度预算</string>
+    <string name="budget_remaining">剩余</string>
+    <string name="budget_exceeded">已超支</string>
+    <string name="budget_warning">预算即将用完</string>
+
+    <!-- Settings -->
+    <string name="settings_title">设置</string>
+    <string name="settings_export">导出数据</string>
+    <string name="settings_recurring">定期支出</string>
+    <string name="settings_app_lock">应用锁</string>
+    <string name="settings_about">关于</string>
+
+    <!-- Common -->
+    <string name="common_save">保存</string>
+    <string name="common_cancel">取消</string>
+    <string name="common_delete">删除</string>
+    <string name="common_edit">编辑</string>
+    <string name="common_confirm">确认</string>
+    <string name="common_yes">是</string>
+    <string name="common_no">否</string>
+    <string name="common_loading">加载中...</string>
+    <string name="common_error">出错了</string>
+
+    <!-- Currency -->
+    <string name="currency_cny">¥</string>
+</resources>

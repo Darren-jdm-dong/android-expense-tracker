@@ -1,0 +1,41 @@
+# Android
+*.apk
+*.ap_
+*.dex
+*.class
+bin/
+gen/
+out/
+build/
+
+# Gradle
+.gradle/
+gradle-app.setting
+!gradle-wrapper.jar
+
+# IDE
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*.tmp
+
+# Kotlin
+*.kotlin_module
+
+# Local configuration
+local.properties
+*.properties
+!gradle.properties
+
+# Log files
+*.log
+
+# Environment
+.env*
