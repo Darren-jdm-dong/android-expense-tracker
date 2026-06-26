@@ -24,14 +24,11 @@ jobs:
     - name: Setup Android SDK
       uses: android-actions/setup-android@v3
 
-    - name: Grant execute permission for gradlew
-      run: chmod +x gradlew
-
     - name: Build Debug APK
-      run: ./gradlew assembleDebug --info
+      run: gradle assembleDebug --info
 
     - name: Build Release APK
-      run: ./gradlew assembleRelease --info
+      run: gradle assembleRelease --info
 
     - name: List APK files
       run: find . -name "*.apk" -type f
