@@ -161,7 +161,7 @@ fun BudgetCard(budget: BudgetStatus) {
 
             // Progress bar
             LinearProgressIndicator(
-                progress = { (budget.usagePercent.toFloat() / 100).coerceIn(0f, 1f) },
+                progress = (budget.usagePercent.toFloat() / 100).coerceIn(0f, 1f),
                 modifier = Modifier
                     .fillMaxWidth()
                     .height(8.dp),

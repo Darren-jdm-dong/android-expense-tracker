@@ -138,6 +138,7 @@ fun RecurringExpenseItem(
     }
 }
 
+@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun AddRecurringExpenseDialog(
     onDismiss: () -> Unit,
