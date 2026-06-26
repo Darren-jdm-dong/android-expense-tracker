@@ -33,6 +33,7 @@ Thumbs.db
 local.properties
 *.properties
 !gradle.properties
+!gradle/wrapper/gradle-wrapper.properties
 
 # Log files
 *.log
